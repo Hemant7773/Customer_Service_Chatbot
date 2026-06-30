@@ -1,0 +1,250 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "is anyone there",
+        "hola",
+        "greetings",
+        "howdy"
+      ],
+      "responses": [
+        "Hello! I am AssistBot, your customer service assistant. How can I help you today?",
+        "Hi there! How can I assist you today?",
+        "Hey! Welcome to customer support. What can I do for you?",
+        "Good day! How may I help you with your queries today?"
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "product details",
+        "tell me about your products",
+        "what do you sell",
+        "product catalog",
+        "item information",
+        "inventory query"
+      ],
+      "responses": [
+        "We offer high-quality electronics, apparel, and home essentials. You can browse our full catalog on our website's Products section.",
+        "We sell premium consumer products ranging from smart home devices to lifestyle accessories. Is there a specific item you are looking for?"
+      ],
+      "context_set": "product"
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track order",
+        "order status",
+        "check my shipment",
+        "order tracking",
+        "delivery update for order"
+      ],
+      "responses": [
+        "To check your order status, please provide your 8-digit Order ID (e.g., #12345678) or log in to your account profile.",
+        "I can help you track your package. Could you please share your Order ID?"
+      ],
+      "context_set": "order_tracking"
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "shipping options",
+        "do you ship internationally",
+        "shipping policy",
+        "delivery options",
+        "postage rates",
+        "shipping carriers"
+      ],
+      "responses": [
+        "We offer Standard shipping (3-5 business days) and Express shipping (1-2 business days). We also support international shipping to over 50 countries.",
+        "Standard shipping is free on orders over $50. For smaller orders, a flat fee of $4.99 applies. Express shipping costs $14.99."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "how can i return a product",
+        "return policy",
+        "can i return items",
+        "return window",
+        "how to return",
+        "process a return"
+      ],
+      "responses": [
+        "You can return any unused item in its original packaging within 30 days of purchase. Please visit our Returns Center on the website to print a free shipping label.",
+        "Our return policy allows returns within 30 days. To initiate a return, go to your Order History and click the 'Return Item' button next to your order."
+      ],
+      "context_set": "returns"
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "refund policy",
+        "when will i get my refund",
+        "money back",
+        "get a refund",
+        "refund status",
+        "cancelled order refund"
+      ],
+      "responses": [
+        "Refunds are processed back to your original payment method within 5-7 business days after we receive and inspect your returned package.",
+        "Once your return is inspected and approved, we will issue a full refund immediately. It may take a few days to reflect on your bank statement."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "what payment methods do you accept",
+        "how can i pay",
+        "credit cards accepted",
+        "paypal payment",
+        "payment options",
+        "can i use apple pay"
+      ],
+      "responses": [
+        "We accept Visa, Mastercard, American Express, PayPal, Apple Pay, and Google Pay.",
+        "You can pay securely using credit/debit cards (Visa/Mastercard/Amex), PayPal, or digital wallets like Apple Pay and Google Pay."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "how long is delivery",
+        "delivery time",
+        "when will my package arrive",
+        "shipping duration",
+        "how long to get my package"
+      ],
+      "responses": [
+        "Standard shipping takes 3-5 business days, while Express shipping takes 1-2 business days. International deliveries usually take 7-14 business days.",
+        "Typically, orders are processed within 24 hours. Once shipped, delivery takes 1 to 5 business days depending on your shipping speed."
+      ]
+    },
+    {
+      "tag": "account_login",
+      "patterns": [
+        "cannot login",
+        "login issues",
+        "account access",
+        "sign in problem",
+        "portal error",
+        "login blocked"
+      ],
+      "responses": [
+        "If you are having trouble logging in, please clear your browser cache and cookies or check if you are using the correct email address.",
+        "Account access issues are often resolved by checking caps lock or selecting the 'Forgot Password' link on the sign-in page."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "i forgot my password",
+        "password reset",
+        "change password",
+        "how to reset password",
+        "lost my password"
+      ],
+      "responses": [
+        "To reset your password, click 'Forgot Password' on the login screen. We will send a secure password reset link to your registered email address.",
+        "You can change your password under Account Settings -> Security if you are logged in. If not, use the 'Forgot Password' option to receive a reset link."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "how can i contact customer care",
+        "contact information",
+        "phone number",
+        "email address",
+        "talk to human",
+        "support contact",
+        "customer service phone"
+      ],
+      "responses": [
+        "You can contact us via email at support@company.com or call us toll-free at 1-800-555-0199.",
+        "Our customer support email is support@company.com. You can also chat live with us or call us at 1-800-555-0199."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "working hours",
+        "what are your hours",
+        "when are you open",
+        "office timings",
+        "support hours",
+        "open time"
+      ],
+      "responses": [
+        "Our customer service team is available Monday to Friday, 9:00 AM to 6:00 PM EST. Our automated chatbot is online 24/7.",
+        "We are open Monday through Friday, 9:00 AM - 6:00 PM EST. Emails received outside these hours will be answered on the next business day."
+      ]
+    },
+    {
+      "tag": "complaint_registration",
+      "patterns": [
+        "file a complaint",
+        "i want to complain",
+        "register a complaint",
+        "bad service",
+        "unsatisfied",
+        "lodge a grievance"
+      ],
+      "responses": [
+        "We are very sorry to hear that. To file a formal complaint, please provide your order details and a description of the issue. Our manager will contact you within 24 hours.",
+        "Your satisfaction is our priority. Please email details of your complaint to complaints@company.com and we will resolve it immediately."
+      ],
+      "context_set": "complaint"
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "awesome",
+        "great help",
+        "thank you so much",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're very welcome! Let me know if there's anything else I can do for you.",
+        "Anytime! I am glad I could help.",
+        "Happy to help! Have a wonderful day!",
+        "It was my pleasure to assist you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Thank you for contacting customer support. Have a great day!",
+        "Bye! Feel free to reach out again if you need help.",
+        "See you! Have a wonderful day ahead."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Can you please rephrase your question?",
+        "I am still learning and don't know the answer to that. You can contact support@company.com for further help.",
+        "I am not sure I follow. Could you try asking in a different way or check our website's FAQ?"
+      ]
+    }
+  ]
+}

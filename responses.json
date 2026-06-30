@@ -1,0 +1,42 @@
+{
+  "bot_config": {
+    "name": "AssistBot",
+    "theme": "Blue & White",
+    "welcome_message": "Hello! I am AssistBot, your customer support assistant. How can I help you today?",
+    "name_request": "It seems we haven't met. May I know your name, please?",
+    "name_remembered": "Welcome back, {name}! How can I help you now?",
+    "follow_up_prompt": "Is there anything else I can assist you with regarding {context}?",
+    "fallback_responses": [
+      "I'm sorry, I couldn't find a match for your query. Try rephrasing or contact support@company.com.",
+      "I am unable to answer that question. Would you like to check our working hours or contact customer care?"
+    ]
+  },
+  "themes": {
+    "light": {
+      "bg": "#F5F7FB",
+      "chat_bg": "#FFFFFF",
+      "text": "#2C3E50",
+      "bot_bubble": "#E8F0FE",
+      "bot_text": "#1A73E8",
+      "user_bubble": "#1A73E8",
+      "user_text": "#FFFFFF",
+      "input_bg": "#FFFFFF",
+      "input_text": "#2C3E50",
+      "btn_bg": "#1A73E8",
+      "btn_text": "#FFFFFF"
+    },
+    "dark": {
+      "bg": "#121212",
+      "chat_bg": "#1E1E1E",
+      "text": "#E0E0E0",
+      "bot_bubble": "#2D2D2D",
+      "bot_text": "#8AB4F8",
+      "user_bubble": "#8AB4F8",
+      "user_text": "#121212",
+      "input_bg": "#2D2D2D",
+      "input_text": "#E0E0E0",
+      "btn_bg": "#8AB4F8",
+      "btn_text": "#121212"
+    }
+  }
+}
